@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Dki Jakarta</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          106.7268197,-6.1003478,0
+          106.685621,-6.0989823,0
+          106.6993539,-6.1153683,0
+          106.6897408,-6.1208301,0
+          106.6869943,-6.1413117,0
+          106.6883675,-6.1740805,0
+          106.7240731,-6.1904642,0
+          106.7172067,-6.2232299,0
+          106.7432992,-6.2232299,0
+          106.7515389,-6.2450727,0
+          106.7597787,-6.260089,0
+          106.7570321,-6.2737398,0
+          106.7748849,-6.3092304,0
+          106.8023507,-6.32015,0
+          106.7913644,-6.3665561,0
+          106.8325631,-6.3624616,0
+          106.8476693,-6.3406238,0
+          106.8586556,-6.3542725,0
+          106.879255,-6.3556374,0
+          106.8957345,-6.3720153,0
+          106.9108407,-6.3638264,0
+          106.921827,-6.3078654,0
+          106.9094674,-6.2901204,0
+          106.9067208,-6.2696446,0
+          106.9053475,-6.2587239,0
+          106.9245736,-6.2518983,0
+          106.9410531,-6.2532634,0
+          106.9492928,-6.2382469,0
+          106.9479196,-6.2245951,0
+          106.9671456,-6.210943,0
+          106.9753854,-6.1836377,0
+          106.9685189,-6.0935202,0
+          106.8847482,-6.0935202,0
+          106.8435494,-6.1235611,0
+          106.7899911,-6.1099063,0
+          106.7584054,-6.1003478,0
+          106.7268197,-6.1003478,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
